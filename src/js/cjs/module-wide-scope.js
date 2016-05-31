@@ -13,4 +13,4 @@ Object.assign(
   { foo: 'bar' }
 );
 
-console.log( foo ); // Should be `'bar'`;
+console.log( foo ); // Should be `'bar'`
