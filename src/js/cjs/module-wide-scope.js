@@ -5,7 +5,7 @@
  */
 
 const context = (
-    () => this || (1, eval)('this')
+    () => this || ( 1, eval )('this')
   )();
 
 Object.assign(
