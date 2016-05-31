@@ -1,0 +1,10 @@
+{
+  "preset": "airbnb",
+  "maxErrors": null,
+  "validateIndentation": {
+    "value": 2
+  },
+  "requireTrailingComma": false,
+  "disallowTrailingComma": true,
+  "requireLineFeedAtFileEnd": true
+}
