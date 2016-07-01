@@ -1,7 +1,13 @@
-include = "{$include,.bowerrc,.editorconfig,.git*,.grunt,.jscsrc,.jshintrc,.npm*,.tm_properties,.travis.yml}"
-invisiblesMap = " ·\n¶\t›"
-projectDirectory = '$CWD'
-softWrap = true
+encoding = "UTF-8"
+include = "{$include,.{editorconfig,git?*,jscsrc,tm_properties}}"
+projectDirectory = "$CWD"
 softTabs = true
+softWrap = true
+spellChecking = true
+spellingLanguage = "en"
 tabSize = 2
+windowTitle = "$TM_DISPLAYNAME — com.christiangrete.various@$TM_SCM_BRANCH"
 wrapColumn = 80
+
+[ ".jscsrc" ]
+fileType = source.json
