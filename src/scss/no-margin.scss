@@ -1,0 +1,51 @@
+// Helper classes to remove margins
+
+.no-margin {
+  margin: 0;
+}
+
+.no-margin--bottom {
+  margin-bottom: 0;
+}
+
+.no-margin--left {
+  margin-left: 0;
+}
+
+.no-margin--right {
+  margin-right: 0;
+}
+
+.no-margin--top {
+  margin-top: 0;
+}
+
+.no-margin--bottom-left {
+  @extend .no-margin--bottom;
+  @extend .no-margin--left;
+}
+
+.no-margin--bottom-right {
+  @extend .no-margin--bottom;
+  @extend .no-margin--right;
+}
+
+.no-margin--top-left {
+  @extend .no-margin--left;
+  @extend .no-margin--top;
+}
+
+.no-margin--top-right {
+  @extend .no-margin--right;
+  @extend .no-margin--top;
+}
+
+.no-margin--x {
+  @extend .no-margin--left;
+  @extend .no-margin--right;
+}
+
+.no-margin--y {
+  @extend .no-margin--bottom;
+  @extend .no-margin--top;
+}
