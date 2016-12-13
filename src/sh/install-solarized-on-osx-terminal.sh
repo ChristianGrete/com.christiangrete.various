@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# OS X supported function to automate Terminal customizations
+
 open -a Terminal "$PWD/Solarized Dark ansi.terminal"
 
 osascript <<EOD
